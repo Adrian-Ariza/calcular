@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html lang="Spanish">
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+	<title>Calcula lo que necesitas para el 4to periodo</title>
+</head>
+<body >
+	<style>
+		input[type="button"] {
+height: 100%;
+width: 100%;
+font-size: 15px;
+color: white;
+font-family: 'Squada One', cursive;
+background-color: black;
+border-color: black; 
+}
+html{
+	font-size: 20px;
+	font-family: 'Squada One', cursive;
+	background-color: #ff704d;
+	}
+h1{color: red;}
+input[type="text"]{
+	height: 100%;
+	width: 100%;
+	color: black;
+	font-size: 15px;
+	font-family:'Squada One', cursive;
+	background-color: #bb99ff;
+	border-color: #333333; 
+}
+table{
+	border-color: black;
+	background-color: #ff9933;
+	border-collapse: collapse;
+	width: 100%
+	font-size: 15px;
+}
+
+body{
+	 width: 1100px;
+  margin: 0 auto;
+  background-color: #4dffb8;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+ }
+ td[id="mi"]{
+ 	width: 260px;
+ }
+ 
+	</style>
+
+
+	<center><h1><p>Calcula lo que necesitas para el 4to periodo.</p></h1></center>
+<h3><ul type="square">
+<li>Recuerde que si en el 4to periodo academico saca menos de la nota que le mostramos esta en riesgo de perder el año academico.</li>
+<li>Recuerde que: 1.0 a 3.4=Bajo,3.5 a 3.9=Basico,4.0 a 4.4=Alto y 4.5 a 5.0=Superior. </li><li>Si una de sus materias no aparece ingresela en otro recuadro que este vacio.</li></ul></h3>
+<center>
+
+	<table border="5" >
+		<tr>
+			<td>Materia.</td><td>Nota 1er periodo.</td><td>Nota 2do periodo.</td><td>Nota 3er periodo.</td><td>Necesitas en el 4to periodo.</td><td id="mi"></td>
+		</tr>
+		<tr>
+			<td>Calculo.</td><td><input id="cal1" type="text"></td><td><input id="cal2" type="text"></td><td><input id="cal3" type="text"></td><td><div id="cal"></div><div id="cal5"></div></td><td><div id="cal4"></div></td>
+		</tr>
+		<tr>
+			<td>Castellano.</td><td><input type="text" id="cas1"></td><td><input type="text" id="cas2"></td><td><input type="text" id="cas3"></td><td><div id="cas"></div><div id="cas5"></div></td><td><div id="cas4"></div></td>
+		</tr>
+		<tr>
+			<td>Ciencias Economicas.</td><td><input type="text" id="eco1"></td><td><input type="text" id="eco2"></td><td><input type="text" id="eco3"></td><td><div id="eco"></div><div id="eco5"></div></td><td><div id="eco4"></div></td>
+		</tr>
+		<tr>
+			<td>Ciencias Politicas.</td><td><input type="text" id="pol1"></td><td><input type="text" id="pol2"></td><td><input type="text" id="pol3"></td><td><div id="pol"></div><div id="pol5"></div></td><td><div id="pol4"></div></td>
+		</tr>
+		<tr>
+			<td>Biologia.</td><td><input type="text" id="bio1"></td><td><input type="text" id="bio2"></td><td><input type="text" id="bio3"></td><td><div id="bio"></div><div id="bio5"></div></td><td><div id="bio4"></div></td>
+		</tr>
+		<tr>
+			<td>Ingles.</td><td><input type="text" id="in1"></td><td><input type="text" id="in2"></td><td><input type="text" id="in3"></td><td><div id="in"></div><div id="in5"></div></td><td><div id="in4"></div></td>
+		</tr>
+		<tr>
+			<td>Quimica.</td><td><input type="text" id="qui1"></td><td><input type="text" id="qui2"></td><td><input type="text" id="qui3"></td><td><div id="qui"></div><div id="qui5"></div></td><td><div id="qui4"></div></td>
+		</tr>
+		<tr>
+			<td>Informatica.</td><td><input type="text"text id="inf1"></td><td><input type="text" id="inf2"></td><td><input type="text" id="inf3"></td><td><div id="inf"></div><div id="inf5"></div></td><td><div id="inf4"></div></td>
+		</tr>
+		<tr>
+			<td>Etica.</td><td><input type="text" id="eti1"></td><td><input type="text" id="eti2"></td><td><input type="text" id="eti3"></td><td><div id="eti"></div><div id="eti5"></div></td><td><div id="eti4"></div></td>
+		</tr>
+		<tr>
+			<td>Religion.</td><td><input type="text" id="rel1"></td><td><input type="text" id="rel2"></td><td><input type="text" id="rel3"></td><td><div id="rel"></div><div id="rel5"></div></td><td><div id="rel4"></div></td>
+		</tr>
+		<tr>
+			<td>Fisica.</td><td><input type="text" id="fis1"></td><td><input type="text" id="fis2"></td><td><input type="text" id="fis3"></td><td><div id="fis"></div><div id="fis5"></div></td><td><div id="fis4"></div></td>
+		</tr>
+		<tr>
+			<td>Artistica.</td><td><input type="text" id="art1"></td><td><input type="text" id="art2"></td><td><input type="text" id="art3"></td><td><div id="art"></div><div id="art5"></div></td><td><div id="art4"></div></td>
+		</tr>
+		<tr>
+			<td>Filosofia.</td><td><input type="text" id="filo1"></td><td><input type="text" id="filo2"></td><td><input type="text" id="filo3"></td><td><div id="filo"></div><div id="filo5"></div></td><td><div id="filo4"></div></td>
+		</tr>
+		<tr>
+			<td>Educasion Fisica.</td><td><input type="text" id="efi1"></td><td><input type="text" id="efi2"></td><td><input type="text" id="efi3"></td><td><div id="efi"></div><div id="efi5"></div></td><td><div id="efi4"></div></td>
+		</tr>
+		<tr>
+			<td>Estadistica.</td><td><input type="text" id="est1"></td><td><input type="text" id="est2"></td><td><input type="text" id="est3"></td><td><div id="est"></div><div id="est5"></div></td><td><div id="est4"></div></td>
+		</tr>
+		<tr>
+			<td>Geometria.</td><td><input type="text" id="geo1"></td><td><input type="text" id="geo2"></td><td><input type="text" id="geo3"></td><td><div id="geo"></div><div id="geo5"></div></td><td><div id="geo4"></div></td>
+		</tr>
+		<tr>
+			<td>Lectura Critica.</td><td><input type="text" id="cri1"></td><td><input type="text" id="cri2"></td><td><input type="text" id="cri3"></td><td><div id="cri"></div><div id="cri5"></div></td><td><div id="cri4"></div></td>
+		</tr>
+		<tr>
+			<td>Catedra De La Paz.</td><td><input type="text" id="paz1"></td><td><input type="text" id="paz2"></td><td><input type="text" id="paz3"></td><td><div id="paz"></div><div id="paz5"></div></td><td><div id="paz4"></div></td>
+		</tr>
+		<tr>
+			<td>BY: ADRIAN ARIZA</td><td></td><td></td><td></td><td><input onclick="calculo();castellano();economicas();politicas();biologia();ingles();quimica();informatica();fisica();filosofia();etica();religion();efisica();estadistica();geometria();lectura();catedra();artistica();" type="button" value="Calcular."></td><td></td>
+		</tr>
+
+	</table></center>
+	
+<script>
+	
+	
+function calculo () {
+var cal1 = document.getElementById('cal1').value;
+var cal2 = document.getElementById('cal2').value;
+var cal3 = document.getElementById('cal3').value;
+var cal= 14-(parseFloat(cal1) + parseFloat(cal2) + parseFloat(cal3));
+var div=document.getElementById("cal");
+div.textContent=(cal);
+var text = div.textContent;
+var div2=document.getElementById("cal4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3=document.getElementById("cal5");
+var text3=div3.textContent;
+let cal5=deci.toFixed(1);
+div3.textContent=(cal5);
+if (cal>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (cal<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (cal<3.5) {div2.textContent=("Muy Bien.");}}
+if(cal<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(cal)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("cal1").value="";document.getElementById("cal2").value="";document.getElementById("cal3").value="";}
+
+function castellano () {
+var cas1 = document.getElementById('cas1').value;
+var cas2 = document.getElementById('cas2').value;
+var cas3 = document.getElementById('cas3').value;
+var cas= 14-(parseFloat(cas1) + parseFloat(cas2) + parseFloat(cas3));
+var div=document.getElementById("cas");
+div.textContent=(cas);
+var text = div.textContent;
+var div2=document.getElementById("cas4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("cas5");
+var text3 = div3.textContent;
+let cas5 = deci.toFixed(1);
+div3.textContent=(cas5);
+if (cas>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (cas<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (cas<3.5) {div2.textContent=("Muy Bien.");}}
+if(cas<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(cas)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("cas1").value="";document.getElementById("cas2").value="";document.getElementById("cas3").value="";}
+
+function economicas () {
+var eco1 = document.getElementById('eco1').value;
+var eco2 = document.getElementById('eco2').value;
+var eco3 = document.getElementById('eco3').value;
+var eco= 14-(parseFloat(eco1) + parseFloat(eco2) + parseFloat(eco3));
+var div=document.getElementById("eco");
+div.textContent=(eco);
+var text = div.textContent;
+var div2=document.getElementById("eco4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("eco5");
+var text3 = div3.textContent;
+let eco5 = deci.toFixed(1);
+div3.textContent=(eco5);
+if (eco>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (eco<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (eco<3.5) {div2.textContent=("Muy Bien.");}}
+if(eco<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(eco)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("eco1").value="";document.getElementById("eco2").value="";document.getElementById("eco3").value="";}
+
+function politicas () {
+var pol1 = document.getElementById('pol1').value;
+var pol2 = document.getElementById('pol2').value;
+var pol3 = document.getElementById('pol3').value;
+var pol= 14-(parseFloat(pol1) + parseFloat(pol2) + parseFloat(pol3));
+var div=document.getElementById("pol");
+div.textContent=(pol);
+var text = div.textContent;
+var div2=document.getElementById("pol4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("pol5");
+var text3 = div3.textContent;
+let pol5 = deci.toFixed(1);
+div3.textContent=(pol5);
+if (pol>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (pol<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (pol<3.5) {div2.textContent=("Muy Bien.");}}
+if(pol<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(pol)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("pol1").value="";document.getElementById("pol2").value="";document.getElementById("pol3").value="";}
+
+function biologia () {
+var bio1 = document.getElementById('bio1').value;
+var bio2 = document.getElementById('bio2').value;
+var bio3 = document.getElementById('bio3').value;
+var bio= 14-(parseFloat(bio1) + parseFloat(bio2) + parseFloat(bio3));
+var div=document.getElementById("bio");
+div.textContent=(bio);
+var text = div.textContent;
+var div2=document.getElementById("bio4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("bio5");
+var text3 = div3.textContent;
+let bio5 = deci.toFixed(1);
+div3.textContent=(bio5);
+if (bio>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (bio<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (bio<3.5) {div2.textContent=("Muy Bien.");}}
+if(bio<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(bio)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("bio1").value="";document.getElementById("bio2").value="";document.getElementById("bio3").value="";}
+
+function ingles () {
+var ing1 = document.getElementById('in1').value;
+var ing2 = document.getElementById('in2').value;
+var ing3 = document.getElementById('in3').value;
+var ing= 14-(parseFloat(ing1) + parseFloat(ing2) + parseFloat(ing3));
+var div=document.getElementById("in");
+div.textContent=(ing);
+var text = div.textContent;
+var div2=document.getElementById("in4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("in5");
+var text3 = div3.textContent;
+let ing5 = deci.toFixed(1);
+div3.textContent=(ing5);
+if (ing>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (ing<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (ing<3.5) {div2.textContent=("Muy Bien.");}}
+if(ing<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(ing)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("in1").value="";document.getElementById("in2").value="";document.getElementById("in3").value="";}
+
+function quimica () {
+var qui1 = document.getElementById('qui1').value;
+var qui2 = document.getElementById('qui2').value;
+var qui3 = document.getElementById('qui3').value;
+var qui= 14-(parseFloat(qui1) + parseFloat(qui2) + parseFloat(qui3));
+var div=document.getElementById("qui");
+div.textContent=(qui);
+var text = div.textContent;
+var div2=document.getElementById("qui4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("qui5");
+var text3 = div3.textContent;
+let qui5 = deci.toFixed(1);
+div3.textContent=(qui5);
+if (qui>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (qui<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (qui<3.5) {div2.textContent=("Muy Bien.");}}
+if(qui<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(qui)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("qui1").value="";document.getElementById("qui2").value="";document.getElementById("qui3").value="";}
+
+function informatica () {
+var inf1 = document.getElementById('inf1').value;
+var inf2 = document.getElementById('inf2').value;
+var inf3 = document.getElementById('inf3').value;
+var inf= 14-(parseFloat(inf1) + parseFloat(inf2) + parseFloat(inf3));
+var div=document.getElementById("inf");
+div.textContent=(inf);
+var text = div.textContent;
+var div2=document.getElementById("inf4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("inf5");
+var text3 = div3.textContent;
+let inf5 = deci.toFixed(1);
+div3.textContent=(inf5);
+if (inf>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (inf<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (inf<3.5) {div2.textContent=("Muy Bien.");}}
+if(inf<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(inf)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("inf1").value="";document.getElementById("inf2").value="";document.getElementById("inf3").value="";}
+
+function etica () {
+var eti1 = document.getElementById('eti1').value;
+var eti2 = document.getElementById('eti2').value;
+var eti3 = document.getElementById('eti3').value;
+var eti= 14-(parseFloat(eti1) + parseFloat(eti2) + parseFloat(eti3));
+var div=document.getElementById("eti");
+div.textContent=(eti);
+var text = div.textContent;
+var div2=document.getElementById("eti4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("eti5");
+var text3 = div3.textContent;
+let eti5 = deci.toFixed(1);
+div3.textContent=(eti5);
+if (eti>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (eti<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (eti<3.5) {div2.textContent=("Muy Bien.");}}
+if(eti<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(eti)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("eti1").value="";document.getElementById("eti2").value="";document.getElementById("eti3").value="";}
+
+function religion () {
+var rel1 = document.getElementById('rel1').value;
+var rel2 = document.getElementById('rel2').value;
+var rel3 = document.getElementById('rel3').value;
+var rel= 14-(parseFloat(rel1) + parseFloat(rel2) + parseFloat(rel3));
+var div=document.getElementById("rel");
+div.textContent=(rel);
+var text = div.textContent;
+var div2=document.getElementById("rel4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("rel5");
+var text3 = div3.textContent;
+let rel5 = deci.toFixed(1);
+div3.textContent=(rel5);
+if (rel>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (rel<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (rel<3.5) {div2.textContent=("Muy Bien.");}}
+if(rel<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(rel)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("rel1").value="";document.getElementById("rel2").value="";document.getElementById("rel3").value="";}
+
+function fisica () {
+var fis1 = document.getElementById('fis1').value;
+var fis2 = document.getElementById('fis2').value;
+var fis3 = document.getElementById('fis3').value;
+var fis= 14-(parseFloat(fis1) + parseFloat(fis2) + parseFloat(fis3));
+var div=document.getElementById("fis");
+div.textContent=(fis);
+var text = div.textContent;
+var div2=document.getElementById("fis4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("fis5");
+var text3 = div3.textContent;
+let fis5 = deci.toFixed(1);
+div3.textContent=(fis5);
+if (fis>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (fis<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (fis<3.5) {div2.textContent=("Muy Bien.");}}
+if(fis<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(fis)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("fis1").value="";document.getElementById("fis2").value="";document.getElementById("fis3").value="";}
+
+function artistica () {
+var art1 = document.getElementById('art1').value;
+var art2 = document.getElementById('art2').value;
+var art3 = document.getElementById('art3').value;
+var art= 14-(parseFloat(art1) + parseFloat(art2) + parseFloat(art3));
+var div=document.getElementById("art");
+div.textContent=(art);
+var text = div.textContent;
+var div2=document.getElementById("art4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("art5");
+var text3 = div3.textContent;
+let art5 = deci.toFixed(1);
+div3.textContent=(art5);
+if (art>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (art<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (art<3.5) {div2.textContent=("Muy Bien.");}}
+if(art<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(art)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("art1").value="";document.getElementById("art2").value="";document.getElementById("art3").value="";}
+
+function filosofia () {
+var filo1 = document.getElementById('filo1').value;
+var filo2 = document.getElementById('filo2').value;
+var filo3 = document.getElementById('filo3').value;
+var filo= 14-(parseFloat(filo1) + parseFloat(filo2) + parseFloat(filo3));
+var div=document.getElementById("filo");
+div.textContent=(filo);
+var text = div.textContent;
+var div2=document.getElementById("filo4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("filo5");
+var text3 = div3.textContent;
+let filo5 = deci.toFixed(1);
+div3.textContent=(filo5);
+if (filo>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (filo<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (filo<3.5) {div2.textContent=("Muy Bien.");}}
+if(filo<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(filo)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("filo1").value="";document.getElementById("filo2").value="";document.getElementById("filo3").value="";}
+
+function efisica () {
+var efi1 = document.getElementById('efi1').value;
+var efi2 = document.getElementById('efi2').value;
+var efi3 = document.getElementById('efi3').value;
+var efi= 14-(parseFloat(efi1) + parseFloat(efi2) + parseFloat(efi3));
+var div=document.getElementById("efi");est
+div.textContent=(efi);
+var text = div.textContent;
+var div2=document.getElementById("efi4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("efi5");
+var text3 = div3.textContent;
+let efi5 = deci.toFixed(1);
+div3.textContent=(efi5);
+if (efi>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (efi<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (efi<3.5) {div2.textContent=("Muy Bien.");}}
+if(efi<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(efi)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("efi1").value="";document.getElementById("efi2").value="";document.getElementById("efi3").value="";}
+
+function estadistica () {
+var est1 = document.getElementById('est1').value;
+var est2 = document.getElementById('est2').value;
+var est3 = document.getElementById('est3').value;
+var est= 14-(parseFloat(est1) + parseFloat(est2) + parseFloat(est3));
+var div=document.getElementById("est");
+div.textContent=(est);
+var text = div.textContent;
+var div2=document.getElementById("est4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("est5");
+var text3 = div3.textContent;
+let est5 = deci.toFixed(1);
+div3.textContent=(est5);
+if (est>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (est<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (est<3.5) {div2.textContent=("Muy Bien.");}}
+if(est<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(est)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("est1").value="";document.getElementById("est2").value="";document.getElementById("est3").value="";}
+
+function geometria () {
+var geo1 = document.getElementById('geo1').value;
+var geo2 = document.getElementById('geo2').value;
+var geo3 = document.getElementById('geo3').value;
+var geo= 14-(parseFloat(geo1) + parseFloat(geo2) + parseFloat(geo3));
+var div=document.getElementById("geo");
+div.textContent=(geo);
+var text = div.textContent;
+var div2=document.getElementById("geo4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("geo5");
+var text3 = div3.textContent;
+let geo5 = deci.toFixed(1);
+div3.textContent=(geo5);
+if (geo>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (geo<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (geo<3.5) {div2.textContent=("Muy Bien.");}}
+if(geo<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(geo)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("geo1").value="";document.getElementById("geo2").value="";document.getElementById("geo3").value="";}
+
+function lectura () {
+var cri1 = document.getElementById('cri1').value;
+var cri2 = document.getElementById('cri2').value;
+var cri3 = document.getElementById('cri3').value;
+var cri= 14-(parseFloat(cri1) + parseFloat(cri2) + parseFloat(cri3));
+var div=document.getElementById("cri");
+div.textContent=(cri);
+var text = div.textContent;
+var div2=document.getElementById("cri4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("cri5");
+var text3 = div3.textContent;
+let cri5 = deci.toFixed(1);
+div3.textContent=(cri5);
+if (cri>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (cri<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (cri<3.5) {div2.textContent=("Muy Bien.");}}
+if(cri<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(cri)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("cri1").value="";document.getElementById("cri2").value="";document.getElementById("cri3").value="";}
+
+function catedra () {
+var paz1 = document.getElementById("paz1").value;
+var paz2 = document.getElementById('paz2').value;
+var paz3 = document.getElementById('paz3').value;
+var paz= 14-(parseFloat(paz1) + parseFloat(paz2) + parseFloat(paz3));
+var div=document.getElementById("paz");
+div.textContent=(paz);
+var text = div.textContent;
+var div2=document.getElementById("paz4");
+var text2=div2.textContent;
+var deci=Math.round(div.textContent*100)/100;
+var div3 = document.getElementById("paz5");
+var text3 = div3.textContent;
+let paz5 = deci.toFixed(1);
+div3.textContent=(paz5);
+if (paz>=3.5){div2.textContent=("Ponle mas atencion y empeño a esta clase.");}
+if (paz<3) {div2.textContent=("Muy Bien sigue asi,Felicitaciones.");} else{if (paz<3.5) {div2.textContent=("Muy Bien.");}}
+if(paz<=0){div.textContent=("0");}
+if(deci<=0){div3.textContent=("0");}
+var NaN="";
+if (text!==NaN){div.textContent=("");}
+if (isNaN(paz)) {div3.textContent=("");div2.textContent=("");} 
+document.getElementById("paz1").value="";document.getElementById("paz2").value="";document.getElementById("paz3").value="";}
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
